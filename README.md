@@ -1,27 +1,27 @@
-# Resilience Assessment Framework for Interdependent Bus–Rail Transit Network
+# Resilience Assessment Framework for Interdependent Bus–Rail Transit Networks
 
-This repository contains the code used in the paper "A resilience assessment framework toward interdependent bus–rail transit network: structure, critical components, and coupling mechanism analysis" published in the journal "Communications in Transportation Research".
+This repository contains code used in the paper `"A resilience assessment framework toward interdependent bus–rail transit network: structure, critical components, and coupling mechanism analysis"`, **which has been submitted to the journal "Communications in Transportation Research" and is currently undergoing peer review**.
 
 ## Environment Setup
 
-To use this project, you need to set up the following environment and libraries:
+To use the code in this project, you will need to configure the following environment and libraries:
 
 - Python 3.7
-- NetworkX
+- networkx
 - Geopandas (version 0.12.1)
 - k-shortest-paths
 - requests
-- Other common third-party libraries, such as Pandas, NumPy, Matplotlib, Seaborn, etc.
+- Other common third-party libraries, such as pandas, numpy, matplotlib, seaborn, etc.
 
-Note that the Geopandas library should be version 0.12.1. We haven't found the need to limit the version of other third-party libraries.
+Note that geopandas must be version 0.12.1, but we do not have any additional version requirements for the other third-party libraries.
 
 ## Usage
 
-Follow these steps to use this project:
+To use this project, follow these steps:
 
-1. Generate the line network file of the existing bus and subway stations using the geographical information data, which will be used to construct the interdependent network. The files are located in `step 1.ipynb` and `step 2.ipynb`.
-2. Analyze the topology and structure of the interdependent network between the subway and bus stations, which are in `step3.ipynb` to `step 5.ipynb`.
-3. Evaluate the importance of interdependent network stations, which is in `step 6.ipynb`.
-4. Evaluate the resilience of the network using the code in `step 7.py`. Note that due to the size of the network, multiprocessing is required for processing. Therefore, you can use the provided Python file and set the number of processes according to the CPU configuration of your computer. Since Jupyter Notebook cannot perform multiprocessing programming, we only provide a Python file.
-5. Other Python files are for importance results analysis.
+1. Use existing geographic data for bus and subway stations to generate their line network files, which are used to construct the interdependent network. This can be done in the files `step 1.ipynb` and `step 2.ipynb`.
+2. The topology and structure analysis of the interdependent network of subways and buses can be found in `step3.ipynb` to `step 5.ipynb`.
+3. The evaluation of the importance of interdependent network nodes can be found in `step 6.ipynb`.
+4. The code for resilience assessment is in `step 7.py`. Note that due to network size limitations, it is necessary to use multiprocessing for processing. Therefore, you can use the provided `.py` file and set the number of processes to be executed according to your computer's CPU configuration. Also, note that jupyter notebook cannot be used for multiprocessing, so we only provide the `.py` file here.
+5. The remaining `.py` files are used for importance analysis results.
 
