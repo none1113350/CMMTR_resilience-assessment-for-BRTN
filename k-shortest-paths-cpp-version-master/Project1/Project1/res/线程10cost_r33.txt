@@ -1,0 +1,16 @@
+Cost: 63.9917
+Cost: 67.4667
+Cost: 68.4398
+Cost: 70
+Cost: 81.7687
+Cost: 82.7917
+Cost: 83.3687
+Cost: 83.6687
+Cost: 124.319
+Cost: 125.557
+Cost: 125.8
+Cost: 125.975
+Cost: 38.725
+Cost: 42.4189
+Cost: 43.2743
+Cost: 46.311

@@ -1,0 +1,3 @@
+﻿  ConsoleApplication1.cpp
+源.obj : error LNK2005: _main 已经在 ConsoleApplication1.obj 中定义
+C:\Users\111\Desktop\k-shortest-paths-cpp-version-master\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
