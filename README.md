@@ -2,6 +2,12 @@
 
 This repository contains code used in the paper `"A resilience assessment framework toward interdependent bus–rail transit network: structure, critical components, and coupling mechanism analysis"`, **which has been submitted to the journal "Communications in Transportation Research" and is currently undergoing peer review**.
 
+## Abstract
+Understanding the interdependent nature of multimodal public transit networks (PTNs) is vital for ensuring the resilience and robustness of transportation systems. However, previous studies have predominantly focused on assessing the vulnerability and characteristics of single-mode PTNs, neglecting the impacts of heterogeneity in disturbance and shifts in travel behavior within multimodal PTNs. Therefore, this study introduces a novel resilience assessment framework that comprehensively analyzes the coupling mechanism, structural and functional characteristics of bus-rail transit networks (BRTNs). In this framework, a network performance metric is proposed by considering the passengers’ travel behaviors under various disturbances. Additionally, stations and subnetworks are classified using the K-means algorithm and resilience metric by simulating various disturbances occurring at each station or subnetwork. The proposed framework is validated via a case study of a BRTN in Beijing, China. Results indicate that the rail transit network (RTN) plays a crucial role in maintaining network function and resisting external disturbances in the interdependent BRTN. Furthermore, the coupling interactions between the RTN and bus transit network (BTN) exhibit distinct characteristics under infrastructure component disruption and functional disruption. These findings provide valuable insights into emergency management for PTNs and understanding the coupling relationship between BTN and RTN.
+
+
+
+
 ## Environment Setup
 
 To use the code in this project, you will need to configure the following environment and libraries:
